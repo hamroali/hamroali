@@ -7,6 +7,7 @@
 
 <br/>
 
+<a href="https://www.linkedin.com/in/hamroali-safarov-0a053439a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://t.me/Aliy_datadevloper"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 <a href="mailto:hamroali44@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://github.com/hamroali"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
@@ -28,6 +29,7 @@
 - 🔭 Bo'sh vaqtimda **ETL pipeline'lar** va **data warehouse** quraman — **Apache Airflow**, **Docker** va **Databricks** bilan
 - 🏗️ **Medallion arxitektura** (Bronze → Silver → Gold) bo'yicha end-to-end pipeline'lar yarataman
 - 👨‍🏫 **Najot Ta'lim**'da Data Analytics yo'nalishida **Assistant Teacher** — Python, SQL va Power BI bo'yicha o'quvchilarga yordam beraman
+- 📚 Hozir chuqurroq o'rganyapman: **Databricks Lakehouse** va **data modeling** (star schema)
 - 🤖 Ishimda **Claude** va **ChatGPT** kabi AI vositalaridan samarali foydalanaman
 - ⚡ Fun fact: ma'lumotni API'dan yig'ib, har kuni o'zi yangilanadigan dashboardga aylantirishni yaxshi ko'raman
 
@@ -38,6 +40,19 @@
 | tugallangan loyiha | tahlil qilingan qarz ma'lumoti | commit bitta ETL pipeline'da | avtomatik yangilanadigan dashboardlar |
 
 </div>
+
+---
+
+## 🧭 Qanday ishlayman
+
+```mermaid
+flowchart LR
+    A[🌐 API / Web] -->|Extract| B[⚙️ Airflow + Python]
+    B -->|Transform| C[🧹 Pandas / Databricks]
+    C -->|Load| D[(🗄️ PostgreSQL / SQL Server)]
+    D --> E[📊 Power BI Dashboard]
+    E --> F[💡 Biznes qarori]
+```
 
 ---
 
